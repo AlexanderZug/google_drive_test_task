@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "Upload files to Google Drive (Nova's test task)"
+authors = ["AlexanderZug <alexandertsygankov.unterwegs@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+pydantic = "^2.5.1"
+python-dotenv = "^1.0.0"
+gunicorn = "^21.2.0"
+google-api-python-client = "^2.108.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
