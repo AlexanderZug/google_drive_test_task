@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "app"
 version = "0.1.0"
-description = "Upload files to Google Drive (Nova's test task)"
+description = "Upload files to Google Drive"
 authors = ["AlexanderZug <alexandertsygankov.unterwegs@gmail.com>"]
 
 [tool.poetry.dependencies]
